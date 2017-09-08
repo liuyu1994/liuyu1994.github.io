@@ -5,19 +5,17 @@
   
   <title>CentOs 7下在线安装MySql | Liuyu Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤：   wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql">
+  <meta name="description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CentOs 7下在线安装MySql">
 <meta property="og:url" content="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/index.html">
 <meta property="og:site_name" content="Liuyu Blog">
-<meta property="og:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤：   wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql">
+<meta property="og:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg">
-<meta property="og:updated_time" content="2017-09-08T08:10:07.106Z">
+<meta property="og:updated_time" content="2017-09-08T08:14:30.127Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOs 7下在线安装MySql">
-<meta name="twitter:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤：   wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql">
-<meta name="twitter:image" content="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg">
+<meta name="twitter:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
   
     <link rel="alternate" href="/atom.xml" title="Liuyu Blog" type="application/atom+xml">
   
@@ -92,34 +90,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤：</p>
-<blockquote>
-<ul>
-<li>wget <a href="http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm" target="_blank" rel="external">http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</a></li>
-<li>rpm -ivh mysql-community-release-el7-5.noarch.rpm</li>
-<li>yum install mysql-community-server</li>
-</ul>
-</blockquote>
-<p><img src="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg" alt="cmd-markdown-logo"></p>
-<p> 成功安装之后重启mysql服务：</p>
-<blockquote>
-<ul>
-<li>bin/systemctl  restart  mysqld.service</li>
-</ul>
-</blockquote>
-<p>初次安装mysql是root账户是没有密码的，设置密码的方法，先登录数据库；</p>
-<blockquote>
-<p>use mysql;<br>UPDATE user SET Password=PASSWORD(‘yourpassword’)where USER=’root’;<br>flush privileges;  </p>
-</blockquote>
+        <h5 id="CentOS-7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载-分为三个步骤："><a href="#CentOS-7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载-分为三个步骤：" class="headerlink" title="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤："></a>CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤：</h5><p> wget <a href="http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm" target="_blank" rel="external">http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</a><br> rpm -ivh mysql-community-release-el7-5.noarch.rpm<br> yum install mysql-community-server</p>
+<p><a href="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg" target="_blank" rel="external">cmd-markdown-logo</a></p>
+<p> 成功安装之后重启mysql服务：<br> bin/systemctl  restart  mysqld.service</p>
+<p>初次安装mysql是root账户是没有密码的，设置密码的方法，先登录数据库；<br>use mysql;<br>UPDATE user SET Password=PASSWORD(‘yourpassword’)where USER=’root’;<br>flush privileges;  </p>
 <hr>
-<h5 id="远程授权连接mysql-可以使用第三方可视化管理工具进行连接，这里是针对服务器的"><a href="#远程授权连接mysql-可以使用第三方可视化管理工具进行连接，这里是针对服务器的" class="headerlink" title="远程授权连接mysql(可以使用第三方可视化管理工具进行连接，这里是针对服务器的)"></a>远程授权连接mysql(可以使用第三方可视化管理工具进行连接，这里是针对服务器的)</h5><blockquote>
-<p>GRANT ALL PRIVILEGES ON <em>.</em> TO’root’@’%’ IDENTIFIED BY ‘mypassword’ WITH GRANT OPTION;<br>FLUSH   PRIVILEGES;</p>
-</blockquote>
+<h5 id="远程授权连接mysql-可以使用第三方可视化管理工具进行连接，这里是针对服务器的"><a href="#远程授权连接mysql-可以使用第三方可视化管理工具进行连接，这里是针对服务器的" class="headerlink" title="远程授权连接mysql(可以使用第三方可视化管理工具进行连接，这里是针对服务器的)"></a>远程授权连接mysql(可以使用第三方可视化管理工具进行连接，这里是针对服务器的)</h5><p>GRANT ALL PRIVILEGES ON <em>.</em> TO’root’@’%’ IDENTIFIED BY ‘mypassword’ WITH GRANT OPTION;<br>FLUSH   PRIVILEGES;</p>
 <h3 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成~"></a>大功告成~</h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/" data-id="cj7blqc270000m4n3n5yv590y" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/" data-id="cj7blvusc0001mkn33p5jfkvo" class="article-share-link">Share</a>
       
       
     </footer>
