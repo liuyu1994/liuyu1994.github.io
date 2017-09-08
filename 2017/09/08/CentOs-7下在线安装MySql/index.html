@@ -12,10 +12,12 @@
 <meta property="og:site_name" content="Liuyu Blog">
 <meta property="og:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-09-08T08:17:37.684Z">
+<meta property="og:image" content="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg">
+<meta property="og:updated_time" content="2017-09-08T08:31:02.054Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOs 7下在线安装MySql">
 <meta name="twitter:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
+<meta name="twitter:image" content="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Liuyu Blog" type="application/atom+xml">
   
@@ -91,7 +93,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h5 id="CentOS-7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载-分为三个步骤："><a href="#CentOS-7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载-分为三个步骤：" class="headerlink" title="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤："></a>CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤：</h5><p> wget <a href="http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm" target="_blank" rel="external">http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</a><br> rpm -ivh mysql-community-release-el7-5.noarch.rpm<br> yum install mysql-community-server</p>
-<p>！<a href="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg" target="_blank" rel="external">cmd-markdown-logo</a></p>
+<p><img src="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg" alt="cmd-markdown-logo"></p>
 <h5 id="成功安装之后重启mysql服务："><a href="#成功安装之后重启mysql服务：" class="headerlink" title="成功安装之后重启mysql服务："></a>成功安装之后重启mysql服务：</h5><p> bin/systemctl  restart  mysqld.service</p>
 <h5 id="初次安装mysql是root账户是没有密码的，设置密码的方法，先登录数据库；"><a href="#初次安装mysql是root账户是没有密码的，设置密码的方法，先登录数据库；" class="headerlink" title="初次安装mysql是root账户是没有密码的，设置密码的方法，先登录数据库；"></a>初次安装mysql是root账户是没有密码的，设置密码的方法，先登录数据库；</h5><p>use mysql;<br>UPDATE user SET Password=PASSWORD(‘yourpassword’)where USER=’root’;<br>flush privileges;  </p>
 <hr>
@@ -100,7 +102,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/" data-id="cj7bmduye0000pcn3ytf7wilo" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/" data-id="cj7bmh0hk0002lcn3aje8rolj" class="article-share-link">Share</a>
       
       
     </footer>
