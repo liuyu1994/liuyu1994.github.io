@@ -3,21 +3,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>CentOs 7下在线安装MySql | Liuyu Blog</title>
+  <title>Liuyu Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
-<meta property="og:type" content="article">
-<meta property="og:title" content="CentOs 7下在线安装MySql">
-<meta property="og:url" content="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Liuyu Blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Liuyu Blog">
-<meta property="og:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg =200x200">
-<meta property="og:updated_time" content="2017-09-08T08:36:23.007Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CentOs 7下在线安装MySql">
-<meta name="twitter:description" content="CentOS 7的yum源中貌似没有正常安装MySQL时的MySql-sever文件，需要去官网上下载,分为三个步骤： wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm rpm -ivh mysql-community-release-el7-5.noarch.rpm yum install mysql-c">
-<meta name="twitter:image" content="http://images.51cto.com/files/uploadimg/20100601/1626140.jpg =200x200">
+<meta name="twitter:title" content="Liuyu Blog">
   
     <link rel="alternate" href="/atom.xml" title="Liuyu Blog" type="application/atom+xml">
   
@@ -70,7 +64,9 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-CentOs-7下在线安装MySql" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main">
+  
+    <article id="post-CentOs-7下在线安装MySql" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/09/08/CentOs-7下在线安装MySql/" class="article-date">
   <time datetime="2017-09-08T08:09:11.000Z" itemprop="datePublished">2017-09-08</time>
@@ -83,8 +79,8 @@
       <header class="article-header">
         
   
-    <h1 class="article-title" itemprop="name">
-      CentOs 7下在线安装MySql
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/09/08/CentOs-7下在线安装MySql/">CentOs 7下在线安装MySql</a>
     </h1>
   
 
@@ -103,25 +99,91 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/" data-id="cj7bn12km0000ykn3netvyf8c" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/09/08/CentOs-7下在线安装MySql/" data-id="cj7bmnzrf0000c0n31yxtwrqb" class="article-share-link">Share</a>
       
       
     </footer>
   </div>
   
-    
-<nav id="article-nav">
-  
-  
-    <a href="/2017/09/08/hello-github/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">hello github</div>
-    </a>
-  
-</nav>
+</article>
+
 
   
+    <article id="post-hello-github" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/09/08/hello-github/" class="article-date">
+  <time datetime="2017-09-08T07:19:45.000Z" itemprop="datePublished">2017-09-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/09/08/hello-github/">hello github</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#第一篇文章，for Github</p>
+<p>##如何在github上面搭建博客</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/09/08/hello-github/" data-id="cj7bmnzrr0001c0n3h9vej4ke" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
 </article>
+
+
+  
+    <article id="post-hello" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/09/08/hello/" class="article-date">
+  <time datetime="2017-09-08T06:09:06.000Z" itemprop="datePublished">2017-09-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/09/08/hello/">hello</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h1><p>这是我的第一篇文章:)</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/09/08/hello/" data-id="cj7bmnzrv0002c0n3jw6q7y35" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
 
 </section>
         
