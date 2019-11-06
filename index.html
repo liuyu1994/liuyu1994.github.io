@@ -81,7 +81,7 @@ document.body.addEventListener('input', POWERMODE);
   return res.json();
 })
 .then(function (data) {
-  var sub = '贵在&#44;坚持,Insist on'.length == 0  ? new Array() : '贵在&#44;坚持,Insist on'.split(",");
+  var sub = ''.length == 0  ? new Array() : ''.split(",");
   var both = sub.unshift(data.hitokoto)  
   var typed = new Typed(".subtitle", {
   strings: sub,
