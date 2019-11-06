@@ -2943,7 +2943,7 @@ blockquote footer cite:before {
   -ms-filter: none;
   filter: none;
 }
-#sidebar {
+.open-mobile-menus #sidebar {
   left: -300px !important;
 }
 .open-mobile-toc #mobile-sidebar #mobile-sidebar-toc {
