@@ -2345,10 +2345,8 @@ function activateLightMode(){
 <ul>
 <li><strong>序列化</strong>：将对象写入到IO流中</li>
 <li><strong>反序列化</strong>：从IO流中恢复对象</li>
-<li><em>意义：序列化机制允许将实现序列化的Java对象转换位字节序列，这些字节序列可以保存在磁盘上，或通过网络传输，以达到以后恢复成原来的对象。序列化机制使得对象可以脱离程序的运行而独立存在。*</em></li>
-<li><em>使用场景：所有可在网络上传输的对象都必须是可序列化的*</em>，比如RMI（remote method invoke,即远程方法调用），传入的参数或返回的对象都是可序列化的，否则会出错；</li>
-<li><em>所有需要保存到磁盘的java对象都必须是可序列化的。通常建议：程序创建的每个JavaBean类都实现Serializeable接口。*</em></li>
 </ul>
+<p><strong>意义：序列化机制允许将实现序列化的Java对象转换位字节序列，这些字节序列可以保存在磁盘上，或通过网络传输，以达到以后恢复成原来的对象。序列化机制使得对象可以脱离程序的运行而独立存在。</strong><br><strong>使用场景：所有可在网络上传输的对象都必须是可序列化的</strong>，比如RMI（remote method invoke,即远程方法调用），传入的参数或返回的对象都是可序列化的，否则会出错；<br><strong>所有需要保存到磁盘的java对象都必须是可序列化的。通常建议：程序创建的每个JavaBean类都实现Serializeable接口。</strong></p>
 <h2 id="36-2-ObjectOutputStream类"><a href="#36-2-ObjectOutputStream类" class="headerlink" title="36.2 ObjectOutputStream类"></a>36.2 ObjectOutputStream类</h2><p><code>java.io.ObjectOutputStream</code> 类，将Java对象的原始数据类型写出到文件,实现对象的持久存储。</p>
 <p><strong>构造方法</strong></p>
 <ul>
